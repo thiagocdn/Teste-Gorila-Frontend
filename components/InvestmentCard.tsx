@@ -85,6 +85,14 @@ export default function InvestmentCard({
             </span>
           </div>
         )}
+        {showDelete && (
+          <div className="flex items-center justify-center w-0 -mr-16">
+            <button
+              className="bg-red-600 px-2 text-white rounded-full h-8 text-sm"
+              onClick={() => handleDelete(index)}
+            >X</button>
+          </div>
+        )}
       </div>
     </>
   )
