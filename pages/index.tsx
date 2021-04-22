@@ -33,7 +33,7 @@ export default function Home() {
   }
 
   const handleSetNumber = (value: string) => {
-    const formatedValue = value.replace(',','.').replace(/[^0-9/-]/g, '');
+    const formatedValue = value.replace(',','.').replace(/[^0-9.,]/g, '');
 
     setCdbRate(formatedValue);
   }
