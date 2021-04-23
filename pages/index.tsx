@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { FormEvent, useState } from "react";
 import api from "../services/api";
-import { BsGraphUp } from 'react-icons/bs'
 import GraphModal from "../components/GraphModal";
 import InvestmentCard from "../components/InvestmentCard";
 import LoadingModal from "../components/LoadingModal";

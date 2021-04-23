@@ -14,6 +14,8 @@ Referencie-se à esta caso queira rodar tudo em sua máquina local.
 
 Essa aplicação está disponível na seguinte URL:
 
+ATENÇÃO! O backend no Heroku tem o coldstart... A primeira requisição pode demorar um pouco para ser respondida, após isso ele rodará normalmente
+
 https://gorila-frontend.vercel.app/
 
 

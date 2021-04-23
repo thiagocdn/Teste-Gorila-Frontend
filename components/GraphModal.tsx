@@ -1,6 +1,4 @@
 import InvestmentCard from "./InvestmentCard";
-import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
-import { useEffect, useState } from "react";
 import Graph from "./Graph";
 
 interface InvestmentDTO {
